@@ -1,0 +1,84 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #b6dcf5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+form {
+  background: #c7e8f7;
+  padding: 25px 30px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
+  width: 400px;
+}
+
+h2 {
+  text-align: center;
+  color: #0b0d77;
+  margin-bottom: 20px;
+}
+
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-top: 15px;
+}
+
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 8px;
+  border: 1px solid #000000;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #999;
+  font-size: 14px;
+}
+
+
+.gender,
+.hobbies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 8px;
+}
+
+.gender label,
+.hobbies label {
+  font-weight: normal;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+
+button {
+  width: 100%;
+  margin-top: 20px;
+  padding: 12px;
+  background-color: #9bc9f5;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1e75cc;
+}

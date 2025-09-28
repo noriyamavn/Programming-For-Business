@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Form</title>
+  <link rel="stylesheet" href="tugaspb.css"> 
+</head>
+<body>
+
+  <form action="#" method="post">
+    <h2>Registration Form</h2>
+
+    <label for="fullname">Full Name</label>
+    <input type="text" id="fullname" name="fullname" placeholder="Your Name" required>
+
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" placeholder="Email" required>
+
+    <label for="phone">Phone Number</label>
+    <input type="text" id="phone" name="phone" placeholder="No.Hp" required>
+
+    <label>Gender</label>
+    <div class="gender">
+      <label><input type="radio" name="gender" value="Male"> Male</label>
+      <label><input type="radio" name="gender" value="Female"> Female</label>
+    </div>
+
+    <label>Hobbies</label>
+    <div class="hobbies">
+      <label><input type="checkbox" name="hobbies" value="Basketball"> Basketball</label>
+      <label><input type="checkbox" name="hobbies" value="Futsal"> Futsal</label>
+      <label><input type="checkbox" name="hobbies" value="Swimming"> Swimming</label>
+      <label><input type="checkbox" name="hobbies" value="Tracking"> Tracking</label>
+      <label><input type="checkbox" name="hobbies" value="Badminton"> Badminton</label>
+      <label><input type="checkbox" name="hobbies" value="Badminton"> Padel</label>
+      <label><input type="checkbox" name="hobbies" value="Badminton"> Running</label>
+      <label><input type="checkbox" name="hobbies" value="Badminton"> Gym</label>
+    </div>
+
+    <label for="dob">Date of Birth</label>
+    <input type="date" id="dob" name="dob">
+
+    <label for="program">Program of Study</label>
+    <select id="program" name="program">
+      <option value="">--Select Program--</option>
+      <option value="cs">Computer Science</option>
+      <option value="it">Information System</option>
+      <option value="se">Cyber Security</option>
+      <option value="other">Other</option>
+    </select>
+
+    <label for="address">Full Address</label>
+    <textarea id="address" name="address" placeholder="Enter Your Full Address..." rows="3"></textarea>
+
+    <button type="submit">Submit</button>
+  </form>
+
+</body>
+</html>
